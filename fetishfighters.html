@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Text-based Fighting Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+      <div id="player-stats">
+        <h2>Player Stats</h2>
+        <p>Name: <span id="player-name"></span></p>
+        <p>Health: <span id="player-health"></span></p>
+        <p>Attack: <span id="player-attack"></span></p>
+      </div>
+      <div id="enemy-stats">
+        <h2>Enemy Stats</h2>
+        <p>Name: <span id="enemy-name"></span></p>
+        <p>Health: <span id="enemy-health"></span></p>
+        <p>Attack: <span id="enemy-attack"></span></p>
+      </div>
+      <div id="battle-log">
+        <h2>Battle Log</h2>
+        <ul id="log-list"></ul>
+      </div>
+      <div id="actions">
+        <button id="attack-btn">Attack</button>
+        <button id="restart-btn">Restart</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
